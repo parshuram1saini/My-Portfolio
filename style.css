@@ -1,0 +1,214 @@
+header {
+    /* background: rgb(139, 150, 93); */
+    background: linear-gradient(to bottom right, rgb(194, 238, 238), rgb(235, 219, 189), rgb(198, 241, 198));
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(7, 2, 2);
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: medium;
+    top: 0px;
+  }
+  .nav ul li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    color: rgb(28, 57, 187);
+    background: linear-gradient(to bottom right, orange, yellow, aqua);
+    padding: 5px, 20px;
+  
+    font-size: medium;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  .nav ul li a:hover {
+    background-color: white;
+    color: rgb(5, 2, 2);
+    font-size: large;
+    box-shadow: 0 0 10px white;
+  }
+  .logo {
+    width: 100px;
+    margin: 10px;
+  }
+  #home {
+    display: flex;
+    flex-direction: row;
+    background: rgb(194, 149, 149);
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    overflow: auto;
+    border: 2px solid black;
+  }
+  .name {
+    font-size: large;
+    text-align: center;
+    margin: 30px 0px;
+    color: blue;
+    font-size: 3rem;
+    justify-content: center;
+    /* border: 2px solid black; */
+  }
+  .btn {
+    font-size: 20px;
+    padding: 6px;
+    box-shadow: 0 0 10px;
+  }
+  .btn:hover {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    height: 40px;
+    font-size: 2rem;
+    padding: 2px 5px;
+    margin-left: 50px;
+    background-color: beige;
+    color: black;
+    box-shadow: 10px white;
+  }
+  .heading {
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    justify-content: baseline;
+    z-index: -1;
+    justify-content: center;
+    height: 100px;
+    font-size: 3rem;
+    background: rgb(233, 245, 165);
+  }
+  .img {
+    border: groove;
+    border: 3px black groove;
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+    /* border-radius: circle; */
+    margin: 40px 30px;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+  }
+  #intro {
+    width: 30%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+    margin: 50px;
+  }
+  .qualify {
+    text-align: center;
+    margin-left: 500px;
+    font-size: 40px;
+    padding: 5px;
+    color: blue;
+  }
+  .tag {
+    text-align: justify;
+    font-size: 2rem;
+    margin: 10px;
+  }
+  .design {
+    display: flex;
+    margin-left: 40px;
+    /* border: rgb(163, 28, 28) solid; */
+  
+    width: auto;
+  }
+  .headings {
+    margin: 4px;
+  }
+  .BOX {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+    margin: 50px;
+    padding: 19px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 20% 20%;
+    background: linear-gradient(to bottom right, rgb(132, 214, 189), rgb(164, 204, 199), rgb(185, 240, 237));
+    transition: all 0.8s ease;
+  }
+  
+  #Contact {
+    height: 500px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputfield {
+    text-align: center;
+    width: fit-content;
+    height: 50px;
+    margin: 10px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  #textarea {
+    height: 150px;
+    text-align: center;
+  }
+  .button {
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    font-size: large;
+    background: #000;
+    color: aliceblue;
+    padding: 10px;
+    font-size: large;
+  }
+  
+  #portfolio {
+    text-align: center;
+  }
